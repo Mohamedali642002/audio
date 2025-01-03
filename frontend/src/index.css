@@ -1,0 +1,73 @@
+/* FileUpload.css */
+.container {
+  margin: 40px auto;
+  max-width: 600px;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileLabel, .uploadButton {
+  display: inline-block;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fileLabel {
+  margin-right: 10px;
+}
+
+.fileInfo {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.uploadButton {
+  margin-top: 15px;
+}
+
+.transcriptionCard {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transcriptionTitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.transcriptionText {
+  margin-top: 15px;
+  color: #555;
+}
+
+.inProgress {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.errorMessage {
+  text-align: center;
+  margin-top: 20px;
+  color: #ff0000;
+  font-size: 1.1rem;
+}
